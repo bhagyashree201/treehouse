@@ -114,7 +114,7 @@ width:50%;
 position:relative;
 top:-50%;
 transform: translate(0,-50%);
-height: 15.0rem;
+height: minmax(100%,15.0rem);
 display: flex;
 flex-direction: column;
 flex:1 1 150px;
@@ -149,6 +149,9 @@ box-shadow: 10px  gray;
 .mail{
     text-align: left;
     padding-left: 20px;
+}
+.form input{
+    margin:5%;
 }
 .form button{
     background-color: #008197;
