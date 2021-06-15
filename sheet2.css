@@ -1,0 +1,177 @@
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height:50px;
+
+}
+
+.start h1{
+    display:none;
+}
+.start .treelogo{
+    position: relative;
+    top:0;
+    
+}
+ .navigation a.button{
+     
+     
+     font-size: 12px;
+     height:30px;
+    padding-top: 5px;
+    
+
+    position:relative;
+    top:90%;
+    left:70%;
+    
+
+
+ }
+ .nav{
+    display:none;
+}
+
+.xxx h2{
+    display:none;
+}
+ 
+.xxx h1{
+    font-size:40px ;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 10%;
+
+}
+
+.homepagenav{
+    display: none;
+}
+
+.detail1,.detail2{
+
+   margin: 0%;
+   padding:0;
+    flex:1 1 50%;
+    flex-direction: column;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+
+}
+.box1,.box2,.box3,.box4{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    width:80%;
+    border-bottom:solid gray 1px;
+
+}
+.detail1 .i1,.detail2 .i1{
+    height:60%;
+    width:100px;
+    margin-left:10%;
+    display: block;
+    padding-bottom: 0;
+  
+
+}
+.detail1 .text,.detail2 .text{
+    text-align: left;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.laptops{
+    background-image: url(laptop1.svg);
+
+
+}
+
+.big{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box5,.box6,.box7{
+    width:80%;
+    margin-right: 10%;
+    display: block;
+    margin-bottom: 10%;
+}
+
+.box5 button,.box6 button,.box7 button{
+    margin-right: 10%;
+    padding-left: 25%;
+    padding-right:25%
+}
+
+.build{
+    flex-direction: column;
+}
+.next{
+    width:80%;
+    display: block;
+    text-align: left;
+    margin:10%;
+}
+.next p{
+    display:block;
+}
+.next button{
+    margin-right: 10%;
+    padding-left: 25%;
+    padding-right:25%
+}
+.boxside{
+    float:none;
+    margin:10%;
+    text-align: center;
+    width:80%
+}
+
+.career img{
+    display:block;
+    border:none ;
+    height: 15%;
+    width:25%;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.result{
+    flex-direction: column;
+}
+
+.resultshow{
+    width:80%;
+    height:50%;
+}
+.result .r1{
+    width:80%;
+    display:block;
+    margin-left:5%;
+}
+.result button{
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-right: 10%;
+}
+
+.stories {
+    text-align: left;
+}
+.card {
+    flex-direction: column;
+    margin:5% ;
+    width:80%;
+
+}
+.contact{
+    flex-direction: column;
+}
